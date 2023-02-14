@@ -33,7 +33,7 @@
                         type="number" placeholder="$ Amount you want to deposit
                         " id="depositFieldValue">
                     <button class="px-4 py-1 mt-3 bg-amber-500 text-white
-                        font-bold rounded" id="depositInputValue">Deposit</button>
+                        font-bold rounded" id="depositInputValue" onclick="addDeposit('depositInputValue')">Deposit</button>
 
                 </div>
                 <div class="bg-fuchsia-600 py-5 px-4 rounded-lg">
@@ -42,12 +42,12 @@
                         type="number" placeholder="$ Amount you want to Widthdraw
                         " id="widthDrawFiled">
                     <button class="px-4 py-1 mt-3 bg-amber-500 text-white
-                        font-bold rounded" id="deposit" onclick="widthDraw()">Widthdraw</button>
+                        font-bold rounded" id="WidthDraw" onclick="widthDraw('WidthDraw')">Widthdraw</button>
 
                 </div>
             </section>
 
         </main>
-        <script src="js/bank.js"></script>
+        <script src="account-calculator.js"></script>
     </body>
 </html>
